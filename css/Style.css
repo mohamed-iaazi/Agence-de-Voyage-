@@ -82,3 +82,28 @@ header img{
 .Explorer{
     margin:  30px 30px;
 }
+
+h2{
+    margin-left:  20px ;
+}
+
+.Bottom{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.Card{
+    border: #FDF0EA solid 1px ;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+    width: 240px;
+    margin-top: 10px;
+}
+
+.Card img{
+display: block;
+    margin: auto;
+}
