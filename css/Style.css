@@ -2,61 +2,63 @@
  :root {
 --orange : #EB662B;
 --menu-background : #FDF0EA;
---text-bold-color: #F28555;
+--text-boldColor: #F28555;
+--text-lightBlack-color: #383636;
 
+
+}
+@media screen and (max-width: 500px) {
+      
+    a,header{
+        float: none;
+        display: block;
+        margin-top: 10px;
+      }
+      .nav-bar{
+        margin: 10px 0;
+
+      }
 }
 *{
     font-family: sans-serif;
     padding: 0;
     margin: 0;
 }
-
-header{
-    margin-bottom: 20px;
-}
-.Menu {
+header {
     background-color: var(--menu-background);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-button {
-    border-radius: 3px ;
-    border: 1px transparent solid;
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: var(--orange);
-    color: white;
-    font-size: 10px;
+    width: 100%;
+    min-width: 200px;
+    overflow: hidden;
     height: fit-content;
-}
-
-.logo{
-    width: 100px;
-    height: 30px;
-    margin: 10px;
-}
-
-li {
-    display:inline-block;
-    margin: 0 10px;
-}
-.Intro img{
-    width: 220px;
-    height: 200px;
-    margin-left: 100px;
-}
-
-.Intro{
-    width: 60%;
-    margin: 30px;
-    padding: 30px;
+    padding: 10px 0;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
 
 }
-
-.Explorer{
-width: 50%;
+a{
+  text-decoration: none;
+  color: var(--text-lightBlack-color);
+  margin: 0 10px;
+  padding: 0 10px;
+}
+i{
+    margin: 0 2px;
+}
+header img{
+    height: 20px;
+    width: 80px;
+    margin-left: 20px;
+}
+     button  {
+    margin: 0 10px;
+    padding: 5px 20px;
+    height: fit-content;
+    background-color:var(--orange);
+    border-radius: 3px;
+    border: var(--text-boldColor) 1px solid;
+    outline: #ee58172c 1px solid;
+    color: #fff;
 }
