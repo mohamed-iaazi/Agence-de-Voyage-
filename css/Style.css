@@ -62,3 +62,23 @@ header img{
     outline: #ee58172c 1px solid;
     color: #fff;
 }
+
+.Intro{
+    margin:  30px 30px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.Intro img{
+    height: 230px;
+    width: 250px;
+}
+.Intro h1,h4 , button{
+    
+    margin-top: 20px;
+}
+
+.Explorer{
+    margin:  30px 30px;
+}
